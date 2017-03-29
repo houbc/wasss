@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/bootstrap.min.css" />
+	</head>
+	<body>
+		
+    <ul class="nav navbar-nav navbar-right">
+      <li><a href="#">Link</a></li>
+      <li class="dropdown">
+        <span class="dropdown-toggle"  id="myDropDown" onClick="Test()" data-toggle="">Dropdown <b class="caret"></b></span>
+        <ul class="dropdown-menu">
+          <li><a href="#">Action</a></li>
+          <li><a href="#">Another action</a></li>
+          <li><a href="#">Something else here</a></li>
+          <li class="divider"></li>
+          <li><a href="#">Separated link</a></li>
+        </ul>
+
+	</body>
+	<script type="text/javascript" src="js/jquery.js" ></script>
+	<script type="text/javascript" src="js/bootstrap.min.js" ></script>
+	<script type="text/javascript">
+		function Test()
+    {
+        $('#myDropDown').dropdown();
+        } 
+	</script>
+</html>
